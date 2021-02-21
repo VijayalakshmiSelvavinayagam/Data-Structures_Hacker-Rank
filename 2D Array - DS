@@ -10,7 +10,7 @@ public class Solution {
 
     // Complete the hourglassSum function below.
     static int hourglassSum(int[][] arr) {
-            int temp = 0;
+            int temp = -999;
             int sum;
             for(int i=0; i<arr.length - 2; i++ )
             {
